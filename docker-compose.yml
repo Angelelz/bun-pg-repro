@@ -1,0 +1,9 @@
+services:
+    db-postgres:
+        image: postgres:latest
+        container_name: pg-repro
+        environment:
+            POSTGRES_USER: root
+            POSTGRES_PASSWORD: root
+        ports:
+            - "5435:5435"
