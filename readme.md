@@ -1,7 +1,5 @@
 # Reproduction repository for bun issue #6555
 
-https://orm.drizzle.team/
-
 Just a little repo to reproduce the issue.
 
 # How to
@@ -30,7 +28,7 @@ bun install
 node index.js
 ```
 
-# The result will be:
+### The result will be:
 ```bash
 > node index.js
 Result(1) [ { message: 'hello world!' } ]
@@ -43,7 +41,7 @@ done
 bun index.js
 ```
 
-# The result will be:
+### The result will be:
 ```bash
 > bun index.js
 ResolveMessage {
